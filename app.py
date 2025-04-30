@@ -26,6 +26,6 @@ app.db = db
 # Register blueprints (after extensions are defined)
 from routes.auth_routes import auth
 app.register_blueprint(auth)
-99
+
 if __name__ == '__main__':
     app.run(debug=True)
